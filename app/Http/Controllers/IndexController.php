@@ -11,5 +11,10 @@ class IndexController extends Controller
     {
        return inertia('Index');
     }
+
+    public function contact()
+    {
+        return inertia('Index2');
+    }
     //
 }
